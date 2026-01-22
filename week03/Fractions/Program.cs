@@ -21,6 +21,7 @@ namespace ScriptureMemorizer
             scriptureLibrary.Add(new Scripture(new Reference("Proverbs", 3, 5, 6), "Trust in the LORD with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight."));
             scriptureLibrary.Add(new Scripture(new Reference("Philippians", 4, 13), "I can do all this through him who gives me strength."));
             
+            
             // Select a random scripture
             Random random = new Random();
             int index = random.Next(scriptureLibrary.Count);
