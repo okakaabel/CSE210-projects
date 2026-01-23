@@ -86,8 +86,7 @@ class Program
         Console.WriteLine("Entry saved!\n");
     }
 
-    /// <summary>
-    /// Prompts the user for a filename and saves the journal.
+
     /// </summary>
     static void SaveJournal(Journal journal)
     {
